@@ -1,0 +1,106 @@
+.center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 90px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.col-sm-4{
+    display: inline-block;
+}
+#player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+}
+
+#submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+#input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+
+body {
+    background-image: url('binary.jpg');
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px darkgray
+}
+
+#app {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256, 256, 256, 0.5)
+}
+
+input#inputbox {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+    margin: 5% auto 20px;
+    text-align: center;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 0 25px;
+    border-radius: 10%;
+}
+
+button#Go {
+    background-color: #0DFD85;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    font-size: 14px;
+    top: 130px;
+    left: 120px;
+    position: absolute;
+}
+button#Hint {
+    background-color: #1F7FD8;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10%;
+    border: none;
+    font-size: 16px;
+}
+
+button#Reset {
+    background-color: #E9A237;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10%;
+    border: none;
+    font-size: 16px;
+}
